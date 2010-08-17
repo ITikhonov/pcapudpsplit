@@ -1,0 +1,6 @@
+pcapudpsplit will get UDP packet payloads from pcap file. Pcap file fed via stdin. Each packet's data will be stored into separate file with name like '00000000.pkt'. Ethernet, ip and udp headers are stripped.
+
+Run it as ./pcapudpsplit < dump.pcap
+
+Remember, files are created in a current directory.
+
